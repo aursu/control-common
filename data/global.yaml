@@ -1,1 +1,16 @@
---- {}
+---
+# puppet module
+puppet::common_remote: https://github.com/aursu/control-common.git
+
+# r10k module
+r10k::cachedir: /var/cache/r10k
+r10k::sources:
+  production:
+    remote: https://github.com/aursu/control-init.git
+    basedir: /etc/puppetlabs/code/environments
+  common:
+    remote: https://github.com/aursu/control-common.git
+    basedir: /etc/puppetlabs/code/environments
+  enc:
+    remote: https://github.com/aursu/control-enc.git
+    basedir: /etc/puppetlabs/code/environments
