@@ -1,9 +1,10 @@
 ---
-# puppet module
+# puppet::r10k::config settings (r10k installation)
+puppet::production_remote: https://github.com/aursu/control-init.git
 puppet::common_remote: https://github.com/aursu/control-common.git
+puppet::enc_remote: https://github.com/aursu/control-enc.git
 
-# r10k module
-r10k::cachedir: /var/cache/r10k
+# sources for r10k module
 r10k::sources:
   production:
     remote: https://github.com/aursu/control-init.git
