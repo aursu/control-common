@@ -2,7 +2,7 @@ forge 'forge.puppetlabs.com'
 
 mod 'puppet/r10k', '12.2.0'
 mod 'puppetlabs/apt', '9.4.0'
-mod 'aursu/bsys', '0.6.2'
+mod 'aursu/bsys', '0.6.3'
 mod 'puppetlabs/concat', '9.0.2'
 mod 'puppetlabs/firewall', '6.0.0'
 mod 'puppetlabs/inifile', '6.1.0'
